@@ -1,3 +1,7 @@
+body {
+  font-family: "Ubuntu", Sans-Serif, serif;
+}
+
 .lds-ripple {
   display: inline-block;
   position: relative;

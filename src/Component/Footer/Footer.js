@@ -7,9 +7,9 @@ export default function Footer() {
   return (
     <div className="row bg-light pt-1">
       <div className="col-md-6 text-center">
-        <h4 id="contact" className="text-primary">{t("footer.thenext")}</h4>
-        <h2>{t("footer.letsconnect")}</h2>
-        <p>{t("footer.contactdesk")}</p>
+        <h4 id="contact" className="text-primary display-4">{t("footer.thenext")}</h4>
+        <h2 className="display-2">{t("footer.letsconnect")}</h2>
+        <p className="lead">{t("footer.contactdesk")}</p>
       </div>
       <div className='col-md-6 text-center profile-socieal-links'>
         <a href="mailto:abassthedev@gmail.com" className="btn border my-4">{t("footer.sayhi")} 👋</a>
